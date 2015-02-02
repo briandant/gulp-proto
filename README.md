@@ -8,18 +8,18 @@
 ####Install your prerequisites!
 Make sure you have node and gulp installed:
 
-`brew install npm`
+`$ brew install npm`
 
 ####Install your dependencies!
 
-`npm install`
+`$ npm install`
 
-`gem install sass slim` *Without the `slim` gem unhandled errors abound*
+`$ gem install sass slim` *Without the `slim` gem unhandled errors abound*
 
 Note: make sure you can run `$ slimrb` after `$ gem install slim`, otherwise rvm may not be referenced correctly in your $PATH"
 
 ####Go nuts!
-Run `gulp` to get a server going with browser-sync reloading.
+Run `$ gulp` to get a server going with browser-sync reloading.
 
-Edit in `lib` and let the `dist` build itself as you go. Happy prototyping.
+Edit in `/lib` and let the `/dist` build itself as you go. Happy prototyping.
 
